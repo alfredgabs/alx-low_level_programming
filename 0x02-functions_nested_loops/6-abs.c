@@ -4,11 +4,10 @@
  * @n: a given value
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int value)
 {
-	int n;
 
-	if (n > 0)
-		return (n);
+	if (value < 0)
+		return (-(value));
 	else
-		return (-(n));
+		return (value);
