@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  * mul - multiply two intergers
@@ -6,5 +6,8 @@
  * @b: second interger to be multiplied
  * Return: result of multiplication
  */
+
 int mul(int a, int b)
+{
 	return (a * b);
+}
