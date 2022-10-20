@@ -11,17 +11,17 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if (a >= c && c >= b)
+	if (a >= b && b >= c)
 	{
 		largest = a;
 	}
-	else if (c >= a && a >= b)
+	else if (b >= a && a >= c)
 	{
-		largest = c;
+		largest = b;
 	}
 	else
 	{
-		largest = b;
+		largest = c;
 	}
 
 	return (largest);
