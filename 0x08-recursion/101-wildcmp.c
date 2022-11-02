@@ -1,4 +1,4 @@
-include "main.h"
+include ‘=’, ‘,’, ‘;’, ‘asm’ "main.h"
 
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
